@@ -6,8 +6,9 @@ let barang = [
 ]
 
 var total = 0;
-for(var i = 0 ; i < 3 ; i++){
-    total += barang[i].Harga;
+for(var k = 0 ; k < 4 ; k++){
+    //mengulangi mengkalikan harga dgn jumlah dan menjumlah harga total 
+    total += barang[k].Harga * barang[k].jumlah;
     };
 
 console.log(barang);    
